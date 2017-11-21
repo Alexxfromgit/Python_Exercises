@@ -17,3 +17,5 @@ print(len(text_b))
 print(sum(ages))
 
 print(max(ages))
+
+print(min(ages))
