@@ -8,3 +8,5 @@ text_b = "In the face of ambiguity, refuse the temptation to guess."
 
 print(len(names))
 
+print(len(ages))
+
