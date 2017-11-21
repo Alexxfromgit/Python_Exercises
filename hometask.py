@@ -10,3 +10,5 @@ print(len(names))
 
 print(len(ages))
 
+print(len(text_a))
+
