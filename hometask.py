@@ -12,3 +12,5 @@ print(len(ages))
 
 print(len(text_a))
 
+print(len(text_b))
+
