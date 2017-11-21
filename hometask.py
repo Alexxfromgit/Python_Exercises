@@ -14,3 +14,4 @@ print(len(text_a))
 
 print(len(text_b))
 
+print(sum(ages))
