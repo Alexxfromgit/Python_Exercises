@@ -19,3 +19,7 @@ print(sum(ages))
 print(max(ages))
 
 print(min(ages))
+
+print(min(text_a.split(), key=len))
+
+
