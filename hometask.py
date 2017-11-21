@@ -22,4 +22,7 @@ print(min(ages))
 
 print(min(text_a.split(), key=len))
 
+text_b = text_b.replace(',','')
+print(max(text_b.split(), key=len))
+
 
