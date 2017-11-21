@@ -31,3 +31,9 @@ if text_a.find('special') != 1:
 if text_b.find('refuse') != 1:
   print('refuse')
   
+i = 0
+while i <= len(names) and i <= len(ages):
+  print(names[i], ' is', str(ages[i]), ' years old')
+  i += 1
+
+  
