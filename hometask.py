@@ -27,3 +27,7 @@ print(max(text_b.split(), key=len))
 
 if text_a.find('special') != 1:
   print('special')
+  
+if text_b.find('refuse') != 1:
+  print('refuse')
+  
