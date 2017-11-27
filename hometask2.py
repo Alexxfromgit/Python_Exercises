@@ -10,5 +10,11 @@ for i in range(len(names))
 # Task2
 for i in range(len(names))
     print(names.index(names[i]))
+    
+#Task3
+for i in range(len(names))
+    print(names[i][0])
+    
+
 
 
