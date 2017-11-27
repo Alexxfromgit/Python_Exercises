@@ -1,5 +1,9 @@
 #Creating a file
 
+'''
+                                                        First Part of Exercise
+'''
+
 #Summ function
 
 def summ(a, b):
@@ -20,7 +24,11 @@ def mul(a, b):
 def div(a, b):
     return a / b
 
-#Addition_all
+'''
+                                                        Second Part of Exercise
+'''
+
+# Сложение, складывает любое количество чисел. Результат сумма
 
 def addition_all(*args):
     x = 0
@@ -28,7 +36,7 @@ def addition_all(*args):
         x += i
     return x
 
-#Subtraction_all
+# Вычитание, вычитает любое количество чисел. 
 
 def subtraction_all(*args):
     x = 0
@@ -36,7 +44,7 @@ def subtraction_all(*args):
         x -= i
     return x
 
-#Multiplication_all
+# Умножение любого количества чисел
 
 def multiplication_all(*args):
     x = 0
