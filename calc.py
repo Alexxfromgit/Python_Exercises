@@ -28,3 +28,12 @@ def addition_all(*args):
         x += i
     return x
 
+#Subtraction_all
+
+def subtraction_all(*args):
+    x = 0
+    for i in args:
+        x -= i
+    return x
+
+
