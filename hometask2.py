@@ -22,7 +22,7 @@ for i in range(len(names)):
 #Task5
 summ = 0
 
-for i un range(51):
+for i in range(51):
     x = i ** 2
     summ += x
     
