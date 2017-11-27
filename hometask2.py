@@ -15,6 +15,11 @@ for i in range(len(names)):
 for i in range(len(names)):
     print(names[i][0])
     
+#Task4
+for i in range(len(names)):
+    print(names[i], len(names[i]))
+
+
 
 
 
