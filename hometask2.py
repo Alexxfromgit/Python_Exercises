@@ -3,4 +3,7 @@
 
 names = ['Ann', 'Fillip', 'Monika', 'Ross', 'Sam', 'Alf', 'Roy', 'Sasha', 'Leon']
 
-# comment
+# Task1
+for i in range(len(names))
+    print(names[i])
+
