@@ -50,7 +50,16 @@ for i in range(len(x)):
 
 print(count)
 
+#Task8
+x = [1, 33, 7, 18, 7, 9, 11, -5, 0, 12, 32]
 
+count = x[0]
+
+for i in range(len(x)):
+    if x[i] < count:
+        count = x[i]
+
+print(count)
 
 
 
