@@ -77,7 +77,21 @@ while x > 0:
 
 print(arr)
 
+#Task10
+arr = [1, 33, 7, 18, 7, 9, 11, -5, 0, 12, 32]
 
+x = 1
+
+while x > 0:
+    x = 0
+    for k in range(len(arr) - 1):
+        if arr[k+1] < arr[k]:
+            s = arr[k]
+            arr[k] = arr[k+1]
+            arr[k+1] = s
+            x += 1
+
+print(arr)
 
 
 
