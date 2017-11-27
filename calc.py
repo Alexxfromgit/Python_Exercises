@@ -8,4 +8,8 @@ def summ(a, b):
 def sub(a, b):
     return a - b
 
+#Multiplication function
+def mul(a, b):
+    return a * b
+
 
