@@ -19,6 +19,16 @@ for i in range(len(names)):
 for i in range(len(names)):
     print(names[i], len(names[i]))
 
+#Task5
+summ = 0
+
+for i un range(51):
+    x = i ** 2
+    summ += x
+    
+print(summ)
+
+
 
 
 
