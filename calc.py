@@ -36,4 +36,11 @@ def subtraction_all(*args):
         x -= i
     return x
 
+#Multiplication_all
+
+def multiplication_all(*args):
+    x = 0
+    for i in args:
+        x = x * i
+    return x
 
