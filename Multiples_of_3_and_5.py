@@ -7,7 +7,7 @@ The sum of these multiples is 23.
 
 Find the sum of all the multiples of 3 or 5 below 1000.
 '''
-    for i in range(a + 1):
+    for i in range(a):
         x.append(i)
 
         if (x[i] % 3 == 0 or x[i] % 5 == 0) and x[i] != 0:
