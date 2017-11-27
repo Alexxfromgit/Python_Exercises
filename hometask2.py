@@ -28,6 +28,18 @@ for i un range(51):
     
 print(summ)
 
+#Task6
+def foo(a):
+    if a % 3 == 0 and a % 5 == 0 and a != 0:
+        print("FooBar")
+    elif a % 3 == 0 and a % 5 != 0 and a != 0:
+        print("Foo")
+    elif a % 3 != 0 and a % 5 == 0 and a != 0:
+        print("Bar")
+    else:
+        print("Something is wrong")
+        
+
 
 
 
