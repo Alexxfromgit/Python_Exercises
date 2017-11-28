@@ -22,7 +22,10 @@ def mul(a, b):
 #Division function
 
 def div(a, b):
-    return a / b
+    if a != 0 and b != 0:
+      return a / b
+    else:
+      return None
 
 '''
                                                         Second Part of Exercise
