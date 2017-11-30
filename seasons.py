@@ -8,15 +8,14 @@ def seasons(month):
   старайтесь пользоваться выражением:
   if month in some_list
   '''
-    if month in x:
-        if x.index(month) == 0 or x.index(month) == 1 or x.index(month) == 11:
-            return 'Winter'
-        elif x.index(month) == 2 or x.index(month) == 3 or x.index(month) == 4:
-            return 'Spring'
-        elif x.index(month) == 5 or x.index(month) == 6 or x.index(month) == 7:
-            return 'Summer'
-        else:
-            return 'Autumn'
+    if month in ['January', 'February', 'December']:
+        return 'Winter'
+    elif month in ['March', 'April', 'May']:
+        return 'Spring'
+    elif month in ['June', 'July', 'August']:
+        return 'Summer'
+    elif month in ['September', 'October', 'November']:
+        return 'Autumn'
     else:
-        return 'Wrong month'
+        return 'Something is wrong'
         
