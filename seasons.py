@@ -59,6 +59,8 @@ if __name__ == '__main__':
     assert season(10) == 'autumn'
     assert season(11) == 'autumn'
      
+#Jedi task
+     
 def season(month):
     '''
         Задача для Джидаев:
