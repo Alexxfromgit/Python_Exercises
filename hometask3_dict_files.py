@@ -11,8 +11,7 @@ example = {'title': 'LhmQH4viLO4S x m 2AmXECPhYu5e90k', 'pid': 'f626be28', 'name
 
 my_dict = {'a': 'alpha', 'o': 'omega', 'g': 'gamma'}
 
-
-#Task 1
+#Task 2 - сложность *** - три снежинки
 
 def get_value(some_dict, key):
     '''
@@ -26,3 +25,17 @@ def get_value(some_dict, key):
         if k == key:
             return some_dict.get(key)
             
+#Task 3 - сложность первый класс 2-я четверть
+
+           '''
+           на сервере 0.0.0.0 -22
+           в папке /tmp/dz_files лежат 2 файла
+           baby_names.txt  romeo_and_juliet.txt
+           
+           Написать функцию, которая принимает два значения/аргумента 
+           первый аргумент - путь к файлу
+           второй - любое слово
+           
+           Возвращает функция число - сколько раз встречается слово в файле
+           '''
+           
