@@ -27,15 +27,31 @@ def get_value(some_dict, key):
             
 #Task 3 - сложность первый класс 2-я четверть
 
-           '''
-           на сервере 0.0.0.0 -22
-           в папке /tmp/dz_files лежат 2 файла
-           baby_names.txt  romeo_and_juliet.txt
-           
-           Написать функцию, которая принимает два значения/аргумента 
-           первый аргумент - путь к файлу
-           второй - любое слово
-           
-           Возвращает функция число - сколько раз встречается слово в файле
-           '''
-           
+def count_words(path, some_string):
+    '''
+    на сервере 0.0.0.0 -22
+    в папке /.../.../... лежат 2 файла
+    *.txt  **.txt
+    
+    Написать функцию, которая принимает два значения/аргумента 
+    первый аргумент - путь к файлу
+    второй - любое слово
+    
+    Возвращает функция число - сколько раз встречается слово в файле
+    '''
+    file = open(path, 'r')
+    file_read = file.read()
+
+    split_file = file_read.split()
+    split_string = some_string.split()
+
+    count = 0
+
+    for word in split_file:
+        for search in split_string:
+            if search == word:
+                count += 1
+
+    return count
+
+
