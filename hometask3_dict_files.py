@@ -54,4 +54,6 @@ def count_words(path, some_string):
 
     return count
 
+# Answer for count_words('/tmp/dz_files/romeo_and_juliet.txt', 'Romeo') is 51 !!!
+
 
