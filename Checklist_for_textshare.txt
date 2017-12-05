@@ -1,2 +1,21 @@
-#Check list for text-share
+#Check list for http://text-share.com
 
+                              Checking	                                                                  Result	         Comments
+		
+1      All content and styles in cite is written without mistakes	                                          ok	
+1.1       All text in cite is written without mistakes	                                                    ok	
+2      All functionality of the main page works without errors	                                            ok	
+2.1       Check form with filling out the available languages	                                              ok	
+2.2       Checking the functionality of private text	                                                      ok	
+2.3       Check the form submission with all the fields filled and without filling	                        ok	
+2.4       Create an encrypted version	                                                                      ok	
+3      All functionality of other cite pages works without errors	                                          ok	
+3.1       Checking that all pages iin 'Recent' are accessible by the number under all recent pastes	        ok	
+3.2       Page 'Recent' displays all recent pastes	                                                        ok	
+3.3       Search' in 'Recent' is searching pastes	                                                          ok	
+3.4       Check RSS function in 'Recent' page	                                                              ok	
+3.5       Search' in 'Trending' is searching pastes	                                                        ok	
+3.6       Check for correctness URLs in 'API' page	                                                        ok	
+4      All functionality of mebcite works without errors	                                                  ok	
+4.1       Check site type at different screen resolutions	                                                  ok	
+4.2       Check the work of the site in different browsers and platforms	                                  ok	
