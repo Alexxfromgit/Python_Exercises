@@ -24,6 +24,13 @@ def get_value(some_dict, key):
     for k, v in some_dict.items():
         if k == key:
             return some_dict.get(key)
+           
+def get_value(some_dict, key):
+    '''
+    Вторая версия функции для словаря
+    '''
+    if key in some_dict:
+        return some_dict[key]
             
 #Task 3 - сложность первый класс 2-я четверть
 
