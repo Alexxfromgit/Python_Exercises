@@ -39,10 +39,10 @@ class Person:
         self.birthday_month = birthday_month
 
     def full_name(self):
-        return self.first_name + " " + self.second_name
+        return self.first_name.title() + " " + self.second_name.title()
 
     def email(self):
-        return self.first_name + "." + self.second_name + "@email.com"
+        return self.first_name.title() + "." + self.second_name.title() + "@email.com"
 
     def birth_season(self):
         if self.birthday_month in ['January', 'February', 'December']:
