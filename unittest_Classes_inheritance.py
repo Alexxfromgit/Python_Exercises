@@ -20,7 +20,7 @@ class TestAnimals(unittest.TestCase):
         self.assertEqual(doggy.tail, 1)
 
     def test_doggy_wool(self):
-        self.assertFalse(doggy.wool)
+        self.assertTrue(doggy.wool)
 
     def test_doggy_say_something(self):
         self.assertEqual(Dog.say_something(), "Woof - woof")
