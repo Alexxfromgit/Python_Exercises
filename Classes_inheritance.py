@@ -63,5 +63,7 @@ class Rooster(Animal):
 
 
 some_animal = Animal()
+doggy = Dog()
 kitty = Cat()
+gib = SphynxCat()
 petya = Rooster()
