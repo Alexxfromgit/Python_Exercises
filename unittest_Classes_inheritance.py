@@ -11,7 +11,7 @@ class TestAnimals(unittest.TestCase):
         self.assertEqual(some_animal.tail, 1)
 
     def test_some_animal_wool(self):
-        self.assertEqual(some_animal.wool, True)
+        self.assertTrue(some_animal.wool)
 
     def test_doggy_paw(self):
         self.assertEqual(doggy.paw, 4)
@@ -20,7 +20,7 @@ class TestAnimals(unittest.TestCase):
         self.assertEqual(doggy.tail, 1)
 
     def test_doggy_wool(self):
-        self.assertEqual(doggy.wool, False)
+        self.assertFalse(doggy.wool)
 
     def test_doggy_say_something(self):
         self.assertEqual(Dog.say_something(), "Woof - woof")
@@ -32,7 +32,7 @@ class TestAnimals(unittest.TestCase):
         self.assertEqual(kitty.tail, 1)
 
     def test_kitty_wool(self):
-        self.assertEqual(kitty.wool, True)
+        self.assertTrue(kitty.wool)
 
     def test_kitty_say_something(self):
         self.assertEqual(Cat.say_something(), "Meow - meow")
@@ -44,7 +44,7 @@ class TestAnimals(unittest.TestCase):
         self.assertEqual(kitty.tail, 1)
 
     def test_gib_wool(self):
-        self.assertEqual(SphynxCat.wool, False)
+        self.assertFalse(SphynxCat.wool)
 
     def test_gib_say_something(self):
         self.assertEqual(SphynxCat.say_something(), "Murr - murr")
@@ -56,7 +56,7 @@ class TestAnimals(unittest.TestCase):
         self.assertEqual(petya.tail, 1)
 
     def test_petya_wool(self):
-        self.assertEqual(Rooster.wool, False)
+        self.assertFalse(Rooster.wool)
 
     def test_petya_say_something(self):
         self.assertEqual(Rooster.say_something(), "Cocorico")
